@@ -29,6 +29,9 @@
     border-radius:0px;
     border:none;
 }
+.submit-poruka:pressed{
+    background-color:var(--glavna-hover);
+}
 .kontakt-forma-kontrole{
     border-radius:0px;
 }

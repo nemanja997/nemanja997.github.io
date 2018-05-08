@@ -14,7 +14,7 @@ $(document).ready(function(){
 //Dodavanje kursora na hover producta
 var producti = document.getElementsByClassName('overlay');
 for(var i=0;i<producti.length;i++){
-    producti[0].style.cursor = "pointer";
+    producti[i].style.cursor = "pointer";
 }
    
    producti[0].onclick = function() {
