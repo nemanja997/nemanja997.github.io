@@ -1,0 +1,34 @@
+.naslov-kontakt{
+    text-transform:uppercase;
+    font-size:2em;
+    position: relative;
+}
+.naslov-kontakt:after {
+    content:' ';
+    position: absolute;
+    top:100%;
+    left:50%;
+    width: 300px;
+    border:1px solid var(--sporedna);
+    box-shadow:inset 0 1px 1px rgba(0, 0, 0, .05);
+    transform:translateX(-50%);
+}
+.tekst-info{
+    font-size:1.2em;
+}
+.ikonice-info{
+    color:var(--glavna);
+}
+.submit-poruka{
+    background-color:var(--glavna);
+    border-radius:0px;
+    border:none;
+}
+.submit-poruka:hover{
+    background-color:var(--glavna-hover);
+    border-radius:0px;
+    border:none;
+}
+.kontakt-forma-kontrole{
+    border-radius:0px;
+}

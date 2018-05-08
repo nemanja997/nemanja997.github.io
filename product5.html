@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="sr"> 
+    <head> 
+        <title>Product p5</title> 
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <!-- Bootstrap --> 
+        
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        
+        <link href="css/main.css" type="text/css" rel="stylesheet">
+        <link href="css/product.css" type="text/css" rel="stylesheet">
+        <script defer src="https://use.fontawesome.com/releases/v5.0.10/js/all.js" integrity="sha384-slN8GvtUJGnv6ca26v8EzVaR9DC58QEwsIk9q1QXdCU8Yu8ck/tL/5szYlBbqmS+" crossorigin="anonymous"></script>
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Oswald:400,600" rel="stylesheet">
+      </head> 
+<body> 
+
+   <!--top-bar-->
+  <div class="top-bar d-none d-lg-block">
+    <div class="container h-100">
+      <div class="row justify-content-start h-100 align-items-center">
+        <div class="col-12 ">
+          <span class="top-bar-text"><i class="fas fa-phone"></i> +381-555-333</span>
+          <span class="ml-5 top-bar-text"><i class="far fa-envelope"></i> nasaprodavnica@gmail.com</span>
+        </div>
+      </div>
+    </div>
+  </div>
+         
+    <!--Header-->
+
+    <div class="container">
+
+      <div class="row mt-2">
+        <!--logo sajta-->
+        <div class="col-6 col-md-4">
+          <div class="ml-3" id="logo">
+            <a href="index.html"><img src="images/logo.png" alt="Logo"></a>
+          </div>
+        </div>
+        <!--header input search-->
+        <div class="d-none d-md-block col-md-4">
+            <div class="input-group mb-3">
+                <input type="text" class="form-control pocetna-trazi" placeholder="Pretraga..." aria-label="Recipient's username" aria-describedby="basic-addon2">
+                <div class="input-group-append">
+                  <button class="btn trazi-dugme" type="button"><i class="fas fa-search"></i></button>
+                </div>
+              </div>
+        </div>
+        <!--korpa-->
+        <div class="col-6 col-md-4 pr-0">
+          <button class="btn btn-outline-primary float-right korpa "><i class="fas fa-shopping-cart"></i> Korpa <span class="badge badge-danger">1</span></button>
+        </div>
+      </div>
+      <!--navigacioni meni-->
+
+
+      <div class="row mt-2 mt-md-0">
+          <div class="col-12 px-0">
+
+               <nav class="navbar glavni-navbar navbar-expand-lg navbar-dark glavna-nav-boja">
+                  
+                  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                      <i class="fas fa-bars"></i>
+
+
+                  </button>
+                
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                      <ul class="navbar-nav mr-auto">
+                      
+                          <li class="nav-item dropdown">
+                            <a class="nav-link glavna-nav-link dropdown-toggle "  href="kategorije.html"  aria-haspopup="true" aria-expanded="false">Kategorije</a>
+                            <div class="dropdown-menu">
+                              <a class="dropdown-item" href="kategorije.html">Patike</a>
+                              <a class="dropdown-item" href="kategorije.html">Cipele</a>
+                              <a class="dropdown-item" href="kategorije.html">Džemperi</a>
+                              <a class="dropdown-item" href="kategorije.html">Majice</a>
+                            </div>
+                          </li>
+                          <li class="nav-item">
+                              <a class="nav-link glavna-nav-link" href="index.html">Početna</a>
+                            </li>
+                        
+                          <li class="nav-item">
+                            <a class="nav-link glavna-nav-link" href="galerija.html">Galerija</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link glavna-nav-link" href="kontakt.html">Kontakt</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link glavna-nav-link" href="onama.html">O nama</a>
+                          </li>
+                    </ul>
+                  </div>
+                </nav>
+          </div>
+      </div>
+      </div>
+   <!--Product-page-->
+   <div class="container bg-white pt-3 pb-5 mt-3">
+
+       <div class="row">
+           <div class="col-12 col-lg-9">
+
+                <div class="row">
+                  <!--Glavna slika-->
+                    <div class="col-12 col-md-6">
+                        <img src="images/products/p5.jpg" alt="Patike" class="img-fluid slika-product-glavna">
+                        <!--Sporedne slike-->
+                        <div class="row  mx-0 mt-2">
+                          <div class="col-3 p-1">
+                            <img src="images/products/p5.jpg" alt="Patike" class="img-fluid slika-product">
+                          </div>
+                          <div class="col-3 p-1">
+                            <img src="images/products/p5.jpg" alt="Patike" class="img-fluid slika-product">
+                          </div>
+                          <div class="col-3 p-1">
+                              <img src="images/products/p5.jpg" alt="Patike" class="img-fluid slika-product">
+                            </div>
+                            <div class="col-3 p-1">
+                                <img src="images/products/p5.jpg" alt="Patike" class="img-fluid slika-product">
+                              </div>
+                        </div>
+
+                    </div>
+
+                    <div class="col-12 col-md-6">
+                        <h1 class="product-naslov">Cipele crne</h1>
+                        <p class="text-muted">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam,
+                             nostrum. Dicta, atque laboriosam quidem itaque voluptatum accusamus rem, 
+                             natus repellat quas necessitatibus cupiditate delectus, quos blanditiis 
+                             quia tenetur incidunt distinctio.</p>
+                             <p><span class="cena">1799.99 din.</span></p>
+                             <hr>
+                             <!--forma za kolicinu i kupovinu--> 
+
+                             <form>
+                                <div class="kolicina">
+                                  <input type="number" class="form-control input-kolicina" step="1" min="1" max="" name="kolicina" value="1" inputmode="numeric"/>
+                                  <button id="product-dodajuk" type="submit" name="dodaj-u-korpu" class="btn align-top ml-1">Dodaj u korpu</button>
+                               </div>
+                               
+                             </form>
+
+                      <!--/forma za kolicinu i kupovinu-->
+                    </div>
+                </div>
+                <div class="row mt-5">
+                    <div class="col-12">
+                            <ul class="nav nav-tabs" id="myTab" role="tablist">
+                                    <li class="nav-item">
+                                      <a class="nav-link opis-nav-link  active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Opis</a>
+                                    </li>
+                                    <li class="nav-item ">
+                                      <a class="nav-link opis-nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Veličine</a>
+                                    </li>
+                                    <li class="nav-item ">
+                                      <a class="nav-link opis-nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Recenzije</a>
+                                    </li>
+                                  </ul>
+                                  <div class="tab-content" id="myTabContent">
+                                    <div class="tab-pane product-tabovi fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus consequuntur quam 
+                                        distinctio molestias, illum, ratione possimus, earum reiciendis iste dolores minima 
+                                        porro repellat dolorum recusandae maxime repellendus cumque rem! Amet eveniet 
+                                        consectetur error in totam, vitae quaerat repudiandae aut illo.</p>
+                                        <ul>
+                                          <li>Lorem ipsum dolor sit amet.</li>
+                                          <li>Lorem ipsum dolor sit amet.</li>
+                                          <li>Lorem ipsum dolor sit amet.</li>
+                                          <li>Lorem ipsum dolor sit amet.</li>
+                                        </ul>
+                                    </div>
+                                    <div class="tab-pane product-tabovi fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                                        <table class="table table-striped table-borderless">
+                                            <thead>
+                                              <tr>
+                                                <th>Veličina</th>
+                                                <th>Grudi(cm)</th>
+                                                <th>Struk(cm)</th>
+                                              </tr>
+                                            </thead>
+                                            <tbody>
+                                              <tr>
+                                                <td>XL</td>
+                                                <td>41</td>
+                                                <td>49</td>
+                                              </tr>
+                                              <tr>
+                                                  <td>L</td>
+                                                  <td>39</td>
+                                                  <td>48</td>
+                                              </tr>
+                                              <tr>
+                                                  <td>M</td>
+                                                  <td>37</td>
+                                                  <td>46</td>
+                                              </tr>
+                                              <tr>
+                                                  <td>S</td>
+                                                  <td>34</td>
+                                                  <td>45</td>
+                                              </tr>
+                                            </tbody>
+                                          </table>
+                                    </div>
+                                    <div class="tab-pane product-tabovi fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque repudiandae ab laborum deserunt eius, obcaecati veritatis, officiis, magni exercitationem a minus. Rerum, aliquam recusandae iure expedita nemo vero repellendus eos deleniti hic temporibus! At repudiandae corporis error quod facilis odit impedit nulla vero praesentium, repellendus fugiat nesciunt officiis quae voluptas, ipsam voluptatum velit quibusdam, nam quis nobis totam quisquam vitae!
+                                    </div>
+                                  </div>
+                    </div>
+                </div>
+           </div>
+           <div class="col-lg-3 d-none d-lg-block">
+             <!--Product-sidebar-->
+  
+                    <div class="row mb-3">
+                      <div class="col-3 pr-0">
+                        <i class="fas fa-truck fa-2x ikonica-info float-right"></i>
+                      </div>
+                      <div class="col-9 side-text-info text-muted">
+                        Isporuka u roku od 3 dana najbržom kurirskom službom!
+                      </div>
+                    </div>
+      
+                    <div class="row my-3">
+                      <div class="col-3 pr-0">
+                        <i class="fas fa-unlock fa-2x ikonica-info float-right"></i>
+                      </div>
+                      <div class="col-9 side-text-info text-muted">
+                        Prilikom online kupovine vaši podatci su potpuno zaštićeni!
+                      </div>
+                    </div>
+  
+                    <div class="row mt-3">
+                      <div class="col-3 pr-0">
+                        <i class="fas fa-cart-plus fa-2x ikonica-info float-right"></i>
+                      </div>
+                      <div class="col-9 side-text-info text-muted">
+                       Mogučnost kupovine 24h u našoj internet prodavnici!
+                      </div>
+                    </div>
+                    <!--Banner-->
+                    <div class="slika">
+                      <img src="images/banner.jpg" class="img-fluid p-3 mt-4" alt="banner 50%">
+                    </div>
+                    <!--Novo u sidebaru-->
+                    <div class="novo-product">
+                      <h1 class="novo">Novo</h1>     
+                    </div>
+
+                    <div class="row pl-2 mt-2">
+                      <div class="col-5">
+                          <img src="images/products/p5.jpg" class="img-fluid" alt="p5">
+                      </div>
+                      <div class="col-7 novo-item">
+                       <span class="naslov-aside-product"><a href="product5.html">Cipele crne</a></span> <br>
+                        <span class="cena-aside">1799.99din</span>
+                      </div>
+                    </div>
+
+                    <div class="row pl-2 mt-2">
+                        <div class="col-5">
+                            <img src="images/products/p6.jpg" class="img-fluid" alt="p6">
+                        </div>
+                        <div class="col-7 novo-item">
+                            <span class="naslov-aside-product"><a href="product6.html">Džemper plavi</a></span> <br>
+                         
+                          <span class="cena-aside">1399.99din</span>
+                        </div>
+                    </div>
+
+                    <div class="row pl-2 mt-2">
+                        <div class="col-5">
+                            <img src="images/products/p7.jpg" class="img-fluid" alt="p7">
+                        </div>
+                        <div class="col-7 novo-item">
+                            <span class="naslov-aside-product"><a href="product7.html">Dukserica teget</a></span> <br>
+                         
+                          <span class="cena-aside">2799.99din</span>
+                        </div>
+                    </div>
+                  
+                
+           </div>
+       </div>
+   </div>
+
+     
+   <!-- Footer -->
+   <div id="footer" class="container">
+			<div class="row text-center text-center text-sm-center">
+				<div class="col-12 col-sm-4 col-md-4">
+					<h5>Brzi linkovi</h5>
+					<ul class="list-unstyled brzi-linkovi">
+						<li><a href="index.html"><i class="fa fa-angle-double-right"></i>Početna</a></li>
+						<li><a href="kategorije.html"><i class="fa fa-angle-double-right"></i>Kategorije</a></li>
+						<li><a href="galerija.html"><i class="fa fa-angle-double-right"></i>Galerija</a></li>
+						<li><a href="onama.html"><i class="fa fa-angle-double-right"></i>O nama</a></li>
+						<li><a href="kontakt.html"><i class="fa fa-angle-double-right"></i>Kontakt</a></li>
+					</ul>
+				</div>
+				<div class="col-12 col-sm-4 col-md-4">
+					<h5>Kategorije</h5>
+					<ul class="list-unstyled brzi-linkovi">
+              <li><a href="kategorije.html"><i class="fa fa-angle-double-right"></i>Patike</a></li>
+              <li><a href="kategorije.html"><i class="fa fa-angle-double-right"></i>Cipele</a></li>
+              <li><a href="kategorije.html"><i class="fa fa-angle-double-right"></i>Džemperi</a></li>
+              <li><a href="kategorije.html"><i class="fa fa-angle-double-right"></i>Majice</a></li>
+					</ul>
+				</div>
+				<div class="col-12 col-sm-4 col-md-4">
+					<h5>informacije o pošiljci</h5>
+					
+            <p class="kolona-footer-info px-5">Za naručene artikle pre 13h roba će biti poslata isti dan.</p>
+            <p class="kolona-footer-info px-5"> Za naručene artikle posle 13h roba će biti poslata dan posle.</p>
+            <p class="kolona-footer-info px-5"> Plaćanje se vrši iskljucivo pouzećem.</p>
+						
+					
+				</div>
+      </div>
+      
+			<div class="row">
+				<div class="col-12 col-sm-12 col-md-12 mt-2">
+					<ul class="list-unstyled list-inline ikonica-social text-center">
+						<li class="list-inline-item"><a href="#"><i class="fab fa-facebook"></i></a></li>
+						<li class="list-inline-item"><a href="#"><i class="fab fa-twitter"></i></a></li>
+						<li class="list-inline-item"><a href="#"><i class="fab fa-instagram"></i></a></li>
+						<li class="list-inline-item"><a href="#"><i class="fab fa-google-plus"></i></a></li>
+						<li class="list-inline-item"><a href="#"><i class="fa fa-envelope"></i></a></li>
+					</ul>
+				</div>
+				
+      </div>
+      	
+			<div class="row">
+				<div class="col-12 col-sm-12 col-md-12 mt-2 mt-sm-2 text-center text-white">
+					<p class="prava">&copy Sva prava zadržana.<a class="ml-2" href="https://github.com/nemanja997" target="_blank">Nemanja Kažić</a></p>
+				</div>
+				
+			</div>	
+		</div>
+
+
+        
+    
+    <script src="https://code.jquery.com/jquery.js"></script>
+
+    <script src="js/main.js"></script>
+    <!-- Include all compiled plugins --> 
+    <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    --> <script src="js/bootstrap.bundle.min.js"> </script> 
+    
+</body> 
+</html>

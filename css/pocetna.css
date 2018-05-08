@@ -1,0 +1,179 @@
+/*HEADER*/
+.pocetna-trazi{
+    border-radius:  30px 0 0 30px;
+}
+/*SADRZAJ--*/
+
+    /*kartice za proizvode*/
+    .card{
+        border-radius:0px;
+        border:0px solid white; 
+    }
+    .card:hover{
+        box-shadow:0px 0px 15px #dfdfdf;
+    }
+    .card-body a{
+        color:black;
+        text-decoration:none;
+    }
+    .card-body a:hover{
+        color:black;
+        text-decoration:none;
+    }
+    .card-footer{
+        background-color:white;
+        border:0px solid black;
+        padding:10px;
+    }
+    .cena{
+        font-size:16px;
+        font-family: 'Oswald', sans-serif !important;
+        font-weight:400;
+    }
+    .pozadina{
+        background-color:white;
+    }
+    .dodaj-u-korpu{
+        border-radius:0px;
+        background-color:var(--dugme);
+        color: white;
+        text-transform: uppercase;
+        font-family: 'Oswald',sans-serif;
+    }
+    .dodaj-u-korpu:hover{
+        border-radius:0px;
+        background-color:  var(--glavna);
+        /*color: rgb(61, 61, 61);*/  
+    }
+    .slika-hover {
+        position: relative;
+    }  
+    .overlay {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 100%;
+        width: 100%;
+        opacity: 0;
+        transition: .7s ease;
+        background-color: #000;
+    }
+    .slika-hover:hover .overlay {
+        opacity: 0.15;
+    }
+      
+    .text {
+        color: white;
+        font-size: 20px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        text-align: center;
+    }
+    .zvezdice{
+        color:#c9c9c9;
+        font-size:12px;
+    }
+    .zvezdice .checked{
+        color:var(--sporedna);
+    }
+    .opis-kartica{
+        font-size:14px;
+    }
+    .kartica-naslov{
+        font-size:1.2em;
+        color:#363636;
+    }
+        /*carousel*/
+    .carousel-text{
+        position:absolute;
+        top:35%;
+        font-family: 'Oswald', sans-serif !important;
+        text-transform:uppercase;
+        font-size:2.5em;
+        text-align:center;
+    }
+    .carousel-r{
+        left:50%;
+    }
+    .carousel-l{
+        right:50%;
+    }
+    .dugme-carousel{
+        border-radius:0px;
+        font-size:20px;
+        background-color:var(--glavna);
+        color:white;
+        font-family:"Oswald",sans-serif;
+        
+    }
+    .dugme-carousel:hover{
+        background-color:var(--glavna-hover);
+        color:white;
+        text-decoration:none;
+    }
+    @media (min-width:1440px){
+        .carousel-text{
+            font-size:2.8em;
+        }
+    }
+    @media (max-width:767px){
+        .carousel-text{
+            font-size:1.2em;
+        }
+        .dugme-carousel{
+            font-size:0.7em;
+            
+        }
+    }
+        /*Sekcije istaknutih proizvoda*/
+    .podvlacenje {
+        font-family: 'Open Sans';
+        line-height: 1.5em;
+        color: black;
+        font-size: 24px;
+        position: relative;
+       
+        text-transform:uppercase;
+      }
+    .podvlacenje:after {
+        content:' ';
+        position: absolute;
+        top:100%;
+        left:50%;
+        width: 300px;
+        border:1px solid var(--sporedna);
+        box-shadow:inset 0 1px 1px rgba(0, 0, 0, .05);
+        transform:translateX(-50%);
+    }
+    
+
+        /*Sekcija informacija*/
+    .ikonica-info{
+        display:inline-block;
+        font-size: 40px;
+        line-height: 50px;
+        width: 50px;
+        height: 50px;
+        text-align: center;
+        vertical-align: bottom;
+        color:var(--dugme);
+    }
+    .usluge{
+        background-color:#fff;
+    }
+    .informacije{
+        color:#727272; 
+        
+        text-transform:uppercase;
+        font-size:0.9em;
+        
+    }
+
+ 
+
+    
