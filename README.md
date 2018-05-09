@@ -2,6 +2,7 @@
 -This project is representation of e-commerce shop front-end.<br>
 -Products and raitings are hard coded<br>
 -Banner and slider images are done in Photoshop.<br>
+-The website is fully responsive.<br>
 
 ### Technologies:
 -HTML<br>
