@@ -1,12 +1,13 @@
 # Naša prodavnica
--Projekat oslikava front-end deo jedne internet prodavnice<br>
--Proizvodi i rejtinzi su hardkodovani<br>
+-This project is representation of e-commerce shop front-end.<br>
+-Products and raitings are hard coded<br>
+-Banner and slider images are done in Photoshop.<br>
 
-### Tehnologije
+### Technologies:
 -HTML<br>
 -CSS<br>
 -JavaScript(ES5)<br>
 -JQuery<br>
 -Bootstrap 4<br>
 <br>
-**Live preview**
+-For running website see [Live preview](https://nemanja997.github.io/)<br>
