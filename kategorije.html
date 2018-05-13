@@ -73,10 +73,10 @@
                           <li class="nav-item dropdown">
                             <a class="nav-link glavna-nav-link dropdown-toggle "  href="kategorije.html"  aria-haspopup="true" aria-expanded="false">Kategorije</a>
                             <div class="dropdown-menu">
-                              <a class="dropdown-item" href="kategorije.html">Patike</a>
+                              <a class="dropdown-item" href="kategorije.html" >Patike</a>
                               <a class="dropdown-item" href="kategorije.html">Cipele</a>
                               <a class="dropdown-item" href="kategorije.html">Džemperi</a>
-                              <a class="dropdown-item" href="kategorije.html">Majice</a>
+                              <a class="dropdown-item" href="kategorije.html">Dukserice</a>
                             </div>
                           </li>
                           <li class="nav-item">
@@ -107,10 +107,11 @@
                 <div class="meni-kategorije p-4">
                     <h3 class="meni-kategorije-naslov text-center">Kategorije</h3>
                     <ul class="meni-kategorije-lista">
-                        <li><a href="kategorije.html">Patike </a><span class="broj-u-kategoriji">(2)</span><br></li>
-                        <li><a href="kategorije.html">Cipele </a><span class="broj-u-kategoriji">(2)</span><br></li>
-                        <li><a href="kategorije.html">Majice </a><span class="broj-u-kategoriji">(2)</span><br></li>
-                        <li><a href="kategorije.html">Džemperi </a><span class="broj-u-kategoriji">(2)</span><br></li>
+                        <li><a id="sve">Sve</a></li>
+                        <li><a id="patike">Patike</a></li>
+                        <li><a id="cipele">Cipele</a></li>
+                        <li><a id="dzemperi">Dukserice</a></li>
+                        <li><a id="dukserice">Džemperi</a></li>
                     </ul>
                     
                 </div>
@@ -176,7 +177,7 @@
                 <div class="col-12 col-md-5">
                 <form class="float-md-right" action="">
 
-                    <label class="labele-forme-kategorije">Prikazi: </label>
+                    <label class="labele-forme-kategorije">Prikaži: </label>
             
                     <select name="count" class="count form-control broj-po-strani">
                                         <option value="9" selected="selected">8</option>
@@ -192,7 +193,7 @@
               <!--Prikaz producta u kolonama:1,2 ili 3-->
               <div class="row">
                 <div class="col-12 col-sm-6 col-lg-4">
-                  <div class="card text-center mb-2" >
+                  <div class="card patike text-center mb-2" >
                     <div class="slika-hover">
                         <img src="images/products/p1.jpg" alt="p1" class="img-fluid">
                         <div class="overlay" id="1"></div> 
@@ -206,7 +207,7 @@
                       <span class="fas fa-star"></span>
                     </div>
                     <div class="card-body py-0">
-                      <a href="product5.html"><h5 class="kartica-naslov">Cipele crne</h5></a>
+                      <a href="product5.html"><h5 class="kartica-naslov">Patike bele</h5></a>
                       <p class="text-muted d-none d-md-block opis-kartica">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                       <span class="cena">2799.99 din.</span>
                     </div>
@@ -216,7 +217,7 @@
                 </div>
                 </div>
                 <div class="col-12 col-sm-6 col-lg-4">
-                  <div class="card text-center mb-2" >
+                  <div class="card dukserice text-center mb-2" >
                     <div class="slika-hover">
                         <img src="images/products/p2.jpg" alt="p2" class="img-fluid">
                         <div class="overlay" id="2"></div> 
@@ -230,7 +231,7 @@
                     <span class="fas fa-star"></span>
                   </div>
                   <div class="card-body py-0">
-                    <a href="product6.html"><h5 class="kartica-naslov">Dukserica plava</h5></a>
+                    <a href="product6.html"><h5 class="kartica-naslov">Dukserica siva</h5></a>
                     <p class="text-muted d-none d-md-block opis-kartica">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                     <span class="cena">399.99 din.</span>
                   </div>
@@ -239,9 +240,9 @@
                   </div>
               </div>
                 </div>
-                  <div class="w-100 d-lg-none"></div> <!--separator-->
+                  
                 <div class="col-12 col-sm-6 col-lg-4">
-                  <div class="card text-center mb-2" >
+                  <div class="card cipele text-center mb-2" >
                     <div class="slika-hover">
                         <img src="images/products/p3.jpg" alt="p3" class="img-fluid">
                         <div class="overlay" id="3"></div> 
@@ -255,7 +256,7 @@
                     <span class="fas fa-star"></span>
                   </div>
                   <div class="card-body py-0">
-                    <a href="product7.html"><h5 class="kartica-naslov">Džemper plavi</h5></a>
+                    <a href="product7.html"><h5 class="kartica-naslov">Cipele braon</h5></a>
                     <p class="text-muted d-none d-md-block opis-kartica">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                     <span class="cena">1099.99 din.</span>
                   </div>
@@ -264,9 +265,9 @@
                   </div>
               </div>
                 </div>
-                    <div class="w-100 d-none d-lg-block"></div><!--separator-->
+                    
                 <div class="col-12 col-sm-6 col-lg-4">
-                  <div class="card text-center mb-2" >
+                  <div class="card patike text-center mb-2" >
                   <div class="slika-hover">
                       <img src="images/products/p4.jpg" alt="p4" class="img-fluid">
                       <div class="overlay" id="4"></div> 
@@ -280,7 +281,7 @@
                   <span class="fas fa-star checked"></span>
                 </div>
                 <div class="card-body py-0">
-                  <a href="product8.html"><h5 class="kartica-naslov">Džemper sivi</h5></a>
+                  <a href="product8.html"><h5 class="kartica-naslov">Patike crne</h5></a>
                   <p class="text-muted d-none d-md-block opis-kartica">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                   <span class="cena">799.99 din.</span>
                 </div>
@@ -289,10 +290,9 @@
                 </div>
                 </div>
                 </div>
-                  <div class="w-100 d-lg-none"><!--separator-->
-
-                  </div>
-                <div class="col-12 col-sm-6 col-lg-4"><div class="card text-center mb-2" >
+                  
+                <div class="col-12 col-sm-6 col-lg-4">
+                  <div class="card cipele text-center mb-2" >
                     <div class="slika-hover">
                       <img src="images/products/p5.jpg" alt="p5" class="img-fluid">
                       <div class="overlay" id="5"></div> 
@@ -307,7 +307,7 @@
                         <span class="fas fa-star"></span>
                       </div>
                       <div class="card-body py-0">
-                        <a href="product1.html"><h5 class="kartica-naslov">Patike bele</h5></a>
+                        <a href="product1.html"><h5 class="kartica-naslov">Cipele crne</h5></a>
                         <p class="text-muted d-none d-md-block opis-kartica">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                         <span class="cena">1799.99 din.</span>
                       </div>
@@ -317,7 +317,7 @@
                   </div>
                 </div>
                 <div class="col-12 col-sm-6 col-lg-4">
-                    <div class="card text-center mb-2" >
+                    <div class="card dukserice text-center mb-2" >
                         <div class="slika-hover">
                             <img src="images/products/p6.jpg" alt="p6" class="img-fluid">
                             <div class="overlay" id="6"></div> 
@@ -331,7 +331,7 @@
                         <span class="fas fa-star"></span>
                       </div>
                       <div class="card-body py-0">
-                        <a href="product2.html"><h5 class="kartica-naslov">Dukserica siva</h5></a>
+                        <a href="product2.html"><h5 class="kartica-naslov">Dukserica plava</h5></a>
                         <p class="text-muted d-none d-md-block opis-kartica">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                           <span class="cena">1799.99 din.</span>
                         </div>
@@ -340,10 +340,10 @@
                         </div>
                   </div>
                 </div>
-                    <div class="w-100 d-none d-lg-block"></div><!--separator-->
-                  <div class="w-100 d-lg-none"></div><!--separator-->
+                    
+                  
                 <div class="col-12 col-sm-6 col-lg-4">
-                    <div class="card text-center mb-2" >
+                    <div class="card dzemperi text-center mb-2" >
                         <div class="slika-hover">
                             <img src="images/products/p7.jpg" alt="p7" class="img-fluid">
                             <div class="overlay" id="7"></div> 
@@ -357,7 +357,7 @@
                         <span class="fas fa-star"></span>
                       </div>
                       <div class="card-body py-0">
-                        <a href="product3.html"><h5 class="kartica-naslov">Cipele braon</h5></a>
+                        <a href="product3.html"><h5 class="kartica-naslov">Džemper plavi</h5></a>
                         <p class="text-muted d-none d-md-block opis-kartica">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                         <span class="cena">2399.99 din.</span>
                       </div>
@@ -367,7 +367,7 @@
                   </div>
                 </div>
                 <div class="col-12 col-sm-6 col-lg-4">
-                    <div class="card text-center mb-2" >
+                    <div class="card dzemperi text-center mb-2" >
                         <div class="slika-hover">
                             <img src="images/products/p8.jpg" alt="p8" class="img-fluid">
                             <div class="overlay" id="8"></div> 
@@ -381,7 +381,7 @@
                         <span class="fas fa-star checked"></span>
                       </div>
                       <div class="card-body py-0">
-                        <a href="product4.html"><h5 class="kartica-naslov">Patike crne</h5></a>
+                        <a href="product4.html"><h5 class="kartica-naslov">Džemper sivi</h5></a>
                         <p class="text-muted d-none d-md-block opis-kartica">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                         <span class="cena">3199.99 din.</span>
                       </div>
@@ -426,7 +426,7 @@
               <li><a href="kategorije.html"><i class="fa fa-angle-double-right"></i>Patike</a></li>
               <li><a href="kategorije.html"><i class="fa fa-angle-double-right"></i>Cipele</a></li>
               <li><a href="kategorije.html"><i class="fa fa-angle-double-right"></i>Džemperi</a></li>
-              <li><a href="kategorije.html"><i class="fa fa-angle-double-right"></i>Majice</a></li>
+              <li><a href="kategorije.html"><i class="fa fa-angle-double-right"></i>Dukserice</a></li>
 					</ul>
 				</div>
 				<div class="col-12 col-sm-4 col-md-4">
@@ -467,6 +467,7 @@
     <script src="https://code.jquery.com/jquery.js"></script>
 
     <script src="js/main.js"></script>
+    <script src="js/kategorije.js"></script>
     <!-- Include all compiled plugins --> 
     <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     --> <script src="js/bootstrap.bundle.min.js"> </script> 
