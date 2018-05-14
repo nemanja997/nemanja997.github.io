@@ -14,14 +14,14 @@
 }
 .meni-kategorije-lista li{
     margin-bottom:5px;
-}
-.meni-kategorije-lista li a{
-    color: #7b858a;
+    color: #8a8a8a;
     font-size:14px;
     line-height:24px;
+    cursor:pointer;
 }
-.meni-kategorije-lista li a:hover{
+.meni-kategorije-lista li:hover{
     color: #7b858a;
+    text-decoration:underline;
 }
 .broj-u-kategoriji{
     color:#9ba7ad;
