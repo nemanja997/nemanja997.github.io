@@ -42,5 +42,6 @@ producti[7].onclick = function() {
     window.location = "product8.html";
 };
 
+
 });
 
