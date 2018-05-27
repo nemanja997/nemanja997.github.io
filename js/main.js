@@ -11,36 +11,21 @@ $(document).ready(function(){
     
 
 
-//Dodavanje kursora na hover producta
+
 var producti = document.getElementsByClassName('overlay');
 for(var i=0;i<producti.length;i++){
+    
+    //Dodavanje kursora na hover producta
     producti[i].style.cursor = "pointer";
+
+    //funkcija za vodjenje na stranicu producta prilikom klika na sliku
+    (function(index) { 
+        producti[index].addEventListener("click", function() {
+            //funkcija ce sacuvati svaku lokaciju za svaki posebni product
+            window.location = "product"+producti[index].id+".html";
+         })
+   })(i);
 }
-   
-   producti[0].onclick = function() {
-    window.location = "product1.html";
-};
-producti[1].onclick = function() {
-    window.location = "product2.html";
-};
-producti[2].onclick = function() {
-    window.location = "product3.html";
-};
-producti[3].onclick = function() {
-    window.location = "product4.html";
-};
-producti[4].onclick = function() {
-    window.location = "product5.html";
-};
-producti[5].onclick = function() {
-    window.location = "product6.html";
-};
-producti[6].onclick = function() {
-    window.location = "product7.html";
-};
-producti[7].onclick = function() {
-    window.location = "product8.html";
-};
 
 
 });

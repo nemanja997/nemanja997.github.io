@@ -134,6 +134,7 @@
 }
 .slika-hover {
     position: relative;
+    height:100%;
 }  
 .overlay {
     position: absolute;

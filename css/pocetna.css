@@ -4,6 +4,8 @@
 }
 /*SADRZAJ--*/
 
+
+
     /*kartice za proizvode*/
     .card{
         border-radius:0px;
@@ -47,6 +49,7 @@
     }
     .slika-hover {
         position: relative;
+        height:100%;
     }  
     .overlay {
         position: absolute;
@@ -60,6 +63,7 @@
         transition: .7s ease;
         background-color: #000;
     }
+   
     .slika-hover:hover .overlay {
         opacity: 0.15;
     }
