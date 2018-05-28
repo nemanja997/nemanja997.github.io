@@ -1,4 +1,7 @@
-
+/*Resetovanje margina i padding-a za container i row(pojavljivao se scroll bar)*/
+.row{margin-left:0px;margin-right:0px;}
+.container{padding:0px;}
+   
 
 /*CSS varijable*/
 
