@@ -87,10 +87,11 @@ body{
     background-color:var(--siva);
     color:var(--sporedna);
     border:0px solid var(--sporedna);
-    border-radius:0px;
+    border-radius:100px;
     font-family: 'Oswald', sans-serif;
     font-size:16px;
     outline: none;
+    
 }
 .korpa:active{
     background-color:var(--sporedna);
@@ -103,6 +104,7 @@ body{
     outline:none;
 }
 .korpa:hover{
+    box-shadow: 0px 5px 18px #888888;
     background-color:var(--sporedna);
     color:white;
     border:0px solid var(--sporedna);
@@ -149,6 +151,10 @@ body{
     text-transform:uppercase;
     font-size:0.8rem;
     font-weight: bold;
+}
+.dropdown-item:active{
+    background-color: var(--siva);
+    color:black;
 }
 .glavna-nav-link:active{
     background-color:var(--glavna-hover);
@@ -236,5 +242,5 @@ hr{
     padding-left: 0;
     padding-bottom: 0px;
     margin-bottom: 10px;
-}
+    }
 }
