@@ -232,6 +232,16 @@ body{
 #footer ul.brzi-linkovi li:hover a i {
     font-weight: 700;
 }
+#footer .kolona-footer-info{
+    padding-left:3rem;
+    padding-right:3rem;
+}
+@media (max-width:992px){
+	#footer .kolona-footer-info{
+         padding-left:0.5rem;
+         padding-right:0.5rem;
+    }
+}
 hr{
     color:white;
     background-color:white;
