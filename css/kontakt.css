@@ -23,15 +23,22 @@
     background-color:var(--glavna);
     border-radius:0px;
     border:none;
+    color:white;
 }
 .submit-poruka:hover{
     background-color:var(--glavna-hover);
     border-radius:0px;
     border:none;
+    color:white;
 }
-.submit-poruka:pressed{
-    background-color:var(--glavna-hover);
-}
+
 .kontakt-forma-kontrole{
     border-radius:0px;
+}
+
+@media (max-width:767px){
+
+    .tekst-mail{
+        font-size:1.1em;
+    }
 }
