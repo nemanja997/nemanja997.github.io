@@ -1,0 +1,102 @@
+@import 'variables';
+
+/*Product slike,info*/
+.sporedne-slike-row{
+    margin-left:-0.25rem;
+    margin-right:-0.25rem;
+}
+.product-tabovi{
+ padding-top:2em;
+}
+.slika-product{
+   border:1px solid #e0e0e0;
+}
+.slika-product-glavna{
+    border:1px solid #e0e0e0;
+}
+.slika-product:hover{
+    border:1px solid $glavna;
+}
+.input-kolicina{
+    border-radius:0px;
+    width:70px;
+    display:inline-block;
+}
+#product-dodajuk{
+    border-radius:0px;
+    background-color:$glavna;
+    color:white;
+    font-family:"Oswald",sans-serif;
+    text-transform:uppercase;
+}
+#product-dodajuk:hover{
+    background-color:$glavna-hover;
+}
+/*kartice za opis producta*/
+.opis-nav-link{
+    color:#2c2c2c;
+    font-family: 'Open Sans', sans-serif !important;
+    font-size:0.9em;
+    text-transform:uppercase;
+    font-weight:bold;
+}
+.opis-nav-link:hover{
+    color:#2c2c2c;
+}
+/*Product sidebar*/
+.ikonica-info{
+    display:inline-block;
+    font-size: 30px;
+    line-height: 50px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    vertical-align: bottom;
+    color:$dugme;
+}
+.side-text-info{
+    text-transform:uppercase;
+    font-size:0.8em;
+}
+.cena{
+    font-size:1.3em;
+    font-family: 'Oswald', sans-serif !important;
+    font-weight:400;
+}
+.cena-aside{
+    font-size:1em;
+    font-family: 'Oswald', sans-serif !important;
+    font-weight:400;
+    color:#5e5e5e;
+}
+.novo-product{
+    text-align: center;
+}
+.novo{
+    padding-top:10px;
+    font-size:1em;
+    text-transform:uppercase;
+    color:#272727;
+    font-weight:bold;
+    font-family:'Open sans',sans-serif;
+}
+.naslov-aside-product a{
+    color:#808080;
+    font-size:0.9em;
+    font-family:'Open sans',sans-serif;
+    
+}
+.naslov-aside-product a:hover{
+    color:#808080;
+    font-size:0.9em;
+    font-family:'Open sans',sans-serif;
+    text-decoration:none;
+    
+}
+.novo-item{
+    margin-top:10px;
+}
+
+
+
+

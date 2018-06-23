@@ -1,0 +1,30 @@
+@import 'variables';
+
+.naslov-onama{
+    text-transform:uppercase;
+    font-size:2em;
+    position: relative;
+}
+.naslov-onama:after {
+    content:' ';
+    position: absolute;
+    top:100%;
+    left:50%;
+    width: 300px;
+    border:1px solid $sporedna;
+    box-shadow:inset 0 1px 1px rgba(0, 0, 0, .05);
+    transform:translateX(-50%);
+}
+.text-onama{
+    font-size:1.2em;
+    font-family: 'Montserrat', sans-serif;
+    font-weight:300;
+}
+#onama2{
+    text-align:right;
+}
+#istaknuto{
+    color:$glavna;
+    font-weight:400;
+    font-size:1.2em;
+}
