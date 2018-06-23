@@ -4,7 +4,6 @@
 -Banner and slider images are done in Photoshop.<br>
 -The website is fully responsive.<br>
 
-<b>*Currently working on refactoring css for cross browser compatibility </b>(IE doesn't support css variables yet).
 
 ### Technologies:
 * HTML<br>
