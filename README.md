@@ -12,4 +12,4 @@
 * JQuery<br>
 * Bootstrap 4<br>
 <br>
--For running website see [Live preview](https://nemanja997.github.io/)<br>
+-For running website see [Live preview](https://nemanja997.github.io/)
